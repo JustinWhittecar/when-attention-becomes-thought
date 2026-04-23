@@ -1,14 +1,10 @@
 # When Attention Becomes Thought
 
-*A literature review tracing the path from transformers to artificial general intelligence, 2017 to 2026.*
-
 By Justin Dielmann.
 
 ## What this is
 
 A book-length synthesis of the research that connects the 2017 transformer paper to the 2026 *Nature* commentary arguing that AGI has been achieved. Written for a general reader who wants to understand how we got here, with primary citations throughout.
-
-Inspired in structure by Robert Nystrom's *Crafting Interpreters* and Donald Knuth's *The Art of Computer Programming*: pedagogical voice, rigorous sourcing, exercises where useful.
 
 ## Read it
 
