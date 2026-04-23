@@ -1,13 +1,16 @@
 # The Spark: Self-Attention and the Transformer
 
-*Current as of: 2026-04-22.*
+> **This chapter is in progress.** The finished prose will replace this scaffolding as the chapter is drafted. Track progress in the [changelog](changelog.md).
 
-Before the transformer, the dominant approach to processing sequences of text was the recurrent neural network. RNNs and their more capable descendant, the Long Short-Term Memory network (Hochreiter & Schmidhuber, 1997), processed words one at a time, passing a hidden state forward like a baton in a relay race. This sequential design meant two things: the model could not easily look backward at words it had already processed, and training could not be parallelized across a sequence. The longer the text, the worse both problems got. Gradients vanished over long distances, and GPU clusters sat idle waiting for each step to finish before starting the next.
+*Last updated: 2026-04-22.*
 
-The early cracks in this approach came from Bahdanau et al. (2014), who introduced an attention mechanism that let a model look back at all positions in an input sequence when generating each word of a translation. This was a patch on the RNN architecture, not a replacement. The sequential bottleneck remained.
+## Narrative job
 
-Then, in 2017, Vaswani et al. published "Attention Is All You Need" and proposed something radical: throw out recurrence entirely and build a model using nothing but attention. The transformer processes every position in a sequence simultaneously, with each position attending to every other position through a mechanism called scaled dot-product self-attention. The math is surprisingly simple. Each token gets projected into three vectors (a query, a key, and a value), attention scores are computed as the dot product of queries and keys, and the output is a weighted sum of values. Stack this into multiple parallel "heads," layer it deep, add positional encodings so the model knows word order, and you have the transformer.
+Introduce the transformer architecture and the self-attention mechanism. Show why replacing recurrence with full parallelism changed the relationship between compute and capability, setting the stage for the scaling era.
 
-What made this matter was not the elegance of the math. It was what the math made possible. Because the entire sequence is processed in parallel, transformers could be trained on vastly more data using the GPU clusters that were becoming available. The architecture did not merely improve on RNNs. It changed the relationship between compute and capability. Self-attention scales quadratically with sequence length (every token attends to every other token), but it enables full parallelism across the sequence, which means that the binding constraint shifted from sequential processing time to available hardware. This is the property that made the scaling era possible (Zhao et al., 2023).
+## Reading list
 
-Nobody knew that in 2017. The original transformer paper was about machine translation, and it was good at machine translation. What it was really good at, it turned out, was being scaled up. The next six years would prove that in ways the authors could not have anticipated.
+1. Hochreiter & Schmidhuber (1997), "Long Short-Term Memory." The predecessor.
+2. Bahdanau et al. (2014), "Neural Machine Translation by Jointly Learning to Align and Translate." The attention mechanism as a patch on RNNs.
+3. Vaswani et al. (2017), "Attention Is All You Need." The central paper.
+4. Zhao et al. (2023), "A Survey of Large Language Models." Context on the architecture's downstream impact.

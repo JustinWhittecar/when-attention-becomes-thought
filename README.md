@@ -40,7 +40,11 @@ mdbook serve --open
 
 ## Status
 
-As of 2026-04-22, Chapters 1 and 2 are drafted. Chapters 3 through 10 are reading-phase scaffolds with source lists.
+All chapters are currently in progress. Finished chapters will be published one at a time on Fridays.
+
+## A note on AI use
+
+All first drafts, research, and personal experiences in this book are my own. AI tools were used throughout the process to help with outlining, editing, and critiquing the work.
 
 ## Contributing
 
