@@ -1,6 +1,6 @@
 # Conclusion
 
-> **Status: under construction.** Will be written after Chapter 8.
+> **This chapter is in progress.** It will be drafted after Chapters 8 and 9 are complete. Track progress in the [changelog](changelog.md).
 
 *Last updated: 2026-04-22.*
 

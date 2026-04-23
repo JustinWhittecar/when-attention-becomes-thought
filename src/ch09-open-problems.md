@@ -1,6 +1,6 @@
 # Open Problems and What Comes Next
 
-> **Status: under construction.** Reading phase.
+> **This chapter is in progress.** What follows is the planned reading list and narrative outline. The finished prose will replace this scaffolding as the chapter is drafted. Track progress in the [changelog](changelog.md).
 
 *Last updated: 2026-04-22.*
 
