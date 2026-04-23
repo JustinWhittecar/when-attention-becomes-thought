@@ -1,6 +1,6 @@
-# Introduction
+# Why I Wrote This
 
-*Current as of: 2026-04-22.*
+*Last updated: 2026-04-22.*
 
 I am from a generation that grew up discovering the internet. I still remember the first time I was able to use MapQuest to print out directions somewhere, and I recall the magic of first navigating via smartphone. As a young man, I was obsessed with sci-fi and devoured books like *Snow Crash* and *Neuromancer*, and my homelab is named after an Isaac Asimov character.
 
@@ -28,3 +28,26 @@ We will follow that chain across six stages:
 We conclude by examining the AGI question directly: what the accumulated evidence means, what the strongest objections are, and what remains unsolved (Chapter 8).
 
 This review is for fellow fans of the field and science fiction nerds alike. It is for anyone who wants to know what we know about how this technology works and came to be. My contribution is not new empirical results but a synthesis: a single document that traces, with primary citations, the path from "Attention Is All You Need" to "Does AI Already Have Human-Level Intelligence? The Evidence Is Clear," and helps in the process share just how magical it is that we are now turning sand into thinking beings.
+
+## A note on the form
+
+This is a living document. It is organized as chapters on GitHub and built as a book with [mdBook](https://rust-lang.github.io/mdBook/). Each chapter names the date it was last updated. New sources are added via pull request. A changelog in the repository records what changed between versions.
+
+If you find an error, or a source I should have read, please open an issue.
+
+---
+
+## Expansion outline (working notes)
+
+*Target: ~2000 words. Remove this section before publishing.*
+
+| Section | Target words | What it does |
+|---|---|---|
+| Personal opening (sci-fi / Turing / internet) | 250 | Warm in. Voice established. |
+| Who I am professionally | 300 | Credibility. Specifics about career, systems you've built, who you've translated between. |
+| The pivot: what changed in 2024-2026 | 350 | Why this book exists now. Walk through the cascade of moments. |
+| Why I'm writing this, and why now | 300 | The gap this book fills. Between-the-researchers-and-the-laypeople audience. |
+| Who this is for | 150 | Not researchers, not total newcomers. The informed curious. |
+| What I promise you | 200 | Primary sources, steelmanned counterarguments, an honest landing. |
+| The roadmap | 350 | The existing six-stage list, with one payoff line per stage. |
+| A note on the form | 100 | Existing text. |

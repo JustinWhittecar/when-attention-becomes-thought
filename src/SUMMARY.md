@@ -1,8 +1,6 @@
 # Summary
 
-[Preface](preface.md)
-
-- [Introduction](ch01-introduction.md)
+- [Why I Wrote This](ch01-why-i-wrote-this.md)
 - [The Spark: Self-Attention and the Transformer](ch02-the-spark.md)
 - [The Scaling Era](ch03-the-scaling-era.md)
 - [Teaching Machines to Follow Intent](ch04-alignment.md)
