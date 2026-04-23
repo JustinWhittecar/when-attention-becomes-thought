@@ -1,0 +1,16 @@
+# mdBook build output
+/book/
+
+# Local PDFs of primary sources. Do not commit.
+/papers/*.pdf
+/papers/*.PDF
+
+# Editor / OS
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Google Docs shortcut files (if you keep them locally)
+*.gdoc
