@@ -34,20 +34,3 @@ This review is for fellow fans of the field and science fiction nerds alike. It 
 This is a living document. It is organized as chapters on GitHub and built as a book with [mdBook](https://rust-lang.github.io/mdBook/). Each chapter names the date it was last updated. New sources are added via pull request. A changelog in the repository records what changed between versions.
 
 If you find an error, or a source I should have read, please open an issue.
-
----
-
-## Expansion outline (working notes)
-
-*Target: ~2000 words. Remove this section before publishing.*
-
-| Section | Target words | What it does |
-|---|---|---|
-| Personal opening (sci-fi / Turing / internet) | 250 | Warm in. Voice established. |
-| Who I am professionally | 300 | Credibility. Specifics about career, systems you've built, who you've translated between. |
-| The pivot: what changed in 2024-2026 | 350 | Why this book exists now. Walk through the cascade of moments. |
-| Why I'm writing this, and why now | 300 | The gap this book fills. Between-the-researchers-and-the-laypeople audience. |
-| Who this is for | 150 | Not researchers, not total newcomers. The informed curious. |
-| What I promise you | 200 | Primary sources, steelmanned counterarguments, an honest landing. |
-| The roadmap | 350 | The existing six-stage list, with one payoff line per stage. |
-| A note on the form | 100 | Existing text. |

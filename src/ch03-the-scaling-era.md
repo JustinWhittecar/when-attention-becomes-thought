@@ -1,6 +1,6 @@
 # The Scaling Era
 
-> **Status: under construction.** This chapter is in the reading phase. The narrative scaffolding below will be replaced with the finished chapter in the coming weeks. See the [finishing plan](https://github.com/REPLACE-ME/when-attention-becomes-thought/blob/main/FINISHING_PLAN.md) for the schedule.
+> **Status: under construction.** This chapter is in the reading phase. The narrative scaffolding below will be replaced with the finished chapter in the coming weeks. See the [finishing plan](https://github.com/JustinWhittecar/when-attention-becomes-thought/blob/main/FINISHING_PLAN.md) for the schedule.
 
 *Last updated: 2026-04-22.*
 
