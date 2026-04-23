@@ -12,19 +12,12 @@ Inspired in structure by Robert Nystrom's *Crafting Interpreters* and Donald Knu
 
 ## Read it
 
-Once the repo is pushed and GitHub Pages is enabled, the built book will live at:
+The book is live at **[justinwhittecar.github.io/when-attention-becomes-thought](https://justinwhittecar.github.io/when-attention-becomes-thought/)**.
 
-```
-https://JustinWhittecar.github.io/when-attention-becomes-thought/
-```
-
-Until then, clone and build locally:
+To build locally:
 
 ```bash
-# Install mdBook, if you do not already have it.
 cargo install mdbook
-
-# From the repo root:
 mdbook serve --open
 ```
 
@@ -34,22 +27,20 @@ mdbook serve --open
 /book.toml                 # mdBook config
 /src/                      # chapter source (what the book is built from)
   SUMMARY.md               # table of contents
-  ch01-introduction.md
+  ch01-why-i-wrote-this.md
   ch02-the-spark.md
   ch03-the-scaling-era.md
   ...
   references.md
   changelog.md
-/notes/                    # reading notes (raw material for the book)
 /papers/                   # local PDFs of primary sources (gitignored)
 /references/bibliography.bib
 /.github/workflows/        # GitHub Pages deployment
-/FINISHING_PLAN.md         # the reading program and writing schedule
 ```
 
 ## Status
 
-As of 2026-04-22, Chapters 1 and 2 are drafted. Chapters 3 through 10 are reading-phase scaffolds with source lists. The [`FINISHING_PLAN.md`](FINISHING_PLAN.md) file contains the full reading program.
+As of 2026-04-22, Chapters 1 and 2 are drafted. Chapters 3 through 10 are reading-phase scaffolds with source lists.
 
 ## Contributing
 
@@ -57,5 +48,6 @@ If you find an error, or a primary source you think belongs here, open an issue.
 
 ## License
 
-Text: CC BY-NC 4.0 (to be confirmed).
-Code and configuration: MIT.
+Text: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+Code and configuration: [MIT](https://opensource.org/licenses/MIT).
+See [`LICENSE`](LICENSE) for full terms.
