@@ -2,18 +2,21 @@
 
 *Primary sources, organized by chapter in the order they are cited. Chapters 1 and 2 list sources already incorporated in the text. Chapters 3 through 9 list the reading program; those entries are marked as proposed until I have read them and cited them in prose.*
 
-*Last updated: 2026-04-22.*
+*Last updated: 2026-04-24.*
 
 ---
 
 ## Chapter 1: Why I Wrote This
 
 - Jones, C. R. & Bergen, B. K. (2025). Large Language Models Pass the Turing Test. [arXiv:2503.23674](https://arxiv.org/abs/2503.23674).
-- Chen, E. K., Belkin, M., Bergen, L. & Danks, D. (2026). Does AI already have human-level intelligence? *Nature*, 650, 36-40.
+- Chen, E. K., Belkin, M., Bergen, L. & Danks, D. (2026). Does AI already have human-level intelligence? The evidence is clear. *Nature*, 650, 36-40. [doi:10.1038/d41586-026-00285-6](https://doi.org/10.1038/d41586-026-00285-6).
 - Vaswani, A. et al. (2017). Attention Is All You Need. *NeurIPS 2017*. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762).
-- Bubeck, S. et al. (2025). [arXiv:2511.16072](https://arxiv.org/abs/2511.16072).
-- Rizvi, S. A. et al. (2025). bioRxiv.
-- Chakrabarty, T. et al. (2025). [arXiv:2510.13939](https://arxiv.org/abs/2510.13939).
+- OpenAI (2025). Gold medal-level performance on the 2025 International Mathematical Olympiad with a general-purpose reasoning LLM. [Post on X](https://x.com/OpenAI/status/1946594928945148246).
+- Google DeepMind (2025). Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad. [Google DeepMind blog](https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/).
+- Bubeck, S. et al. (2025). Early science acceleration experiments with GPT-5. [arXiv:2511.16072](https://arxiv.org/abs/2511.16072).
+- Rein, D. et al. (2023). GPQA: A Graduate-Level Google-Proof Q&A Benchmark. [arXiv:2311.12022](https://arxiv.org/abs/2311.12022).
+- Phan, L. et al. (2026). Humanity's Last Exam. *Nature*, 649, 1139-1146. [arXiv:2501.14249](https://arxiv.org/abs/2501.14249).
+- Porter, B. & Machery, E. (2024). AI-generated poetry is indistinguishable from human-written poetry and is rated more favorably. *Scientific Reports*, 14, 26133. [doi:10.1038/s41598-024-76900-1](https://doi.org/10.1038/s41598-024-76900-1).
 
 ## Chapter 2: The Spark
 

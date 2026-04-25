@@ -36,7 +36,7 @@ mdbook serve --open
 
 ## Status
 
-All chapters are currently in progress. Finished chapters will be published one at a time on Fridays.
+Chapter 1, *Why I Wrote This*, is published. Chapters 2 through 10 are in progress. Finished chapters are published one at a time on Fridays. See the [changelog](src/changelog.md) for what's shipped and what's coming.
 
 ## A note on AI use
 
