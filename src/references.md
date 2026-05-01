@@ -2,7 +2,7 @@
 
 *Primary sources, organized by chapter in the order they are cited. Chapters 1 and 2 list sources already incorporated in the text. Chapters 3 through 9 list the reading program; those entries are marked as proposed until I have read them and cited them in prose.*
 
-*Last updated: 2026-04-24.*
+*Last updated: 2026-05-01.*
 
 ---
 
@@ -20,10 +20,17 @@
 
 ## Chapter 2: The Spark
 
+- von Neumann, J. (1945). First Draft of a Report on the EDVAC. Moore School of Electrical Engineering, University of Pennsylvania. [PDF (MIT mirror)](https://web.mit.edu/sts.035/www/PDFs/edvac.pdf).
+- Godfrey, M. D. & Hendry, D. F. (1993). The Computer as von Neumann Planned It. *IEEE Annals of the History of Computing*, 15(1), 11-21. [doi:10.1109/85.194088](https://doi.org/10.1109/85.194088). [PDF (Stanford mirror)](http://cva.stanford.edu/classes/cs99s/papers/godfrey-computer-as-von-neumann-planned-it.pdf).
+- Hinton, G. E. (1981). Implementing Semantic Networks in Parallel Hardware. In G. E. Hinton & J. A. Anderson (Eds.), *Parallel Models of Associative Memory* (pp. 161-187). Erlbaum. [PDF](https://www.cs.utoronto.ca/~hinton/absps/andersonchap1.pdf).
+- Rumelhart, D. E., McClelland, J. L. & the PDP Research Group (Eds.) (1986). *Parallel Distributed Processing: Explorations in the Microstructure of Cognition. Volume 1: Foundations*. MIT Press. [PDF](https://gwern.net/doc/ai/nn/1986-rumelhart-pdp-v1.pdf).
+- Werbos, P. J. (1990). Backpropagation Through Time: What It Does and How to Do It. *Proceedings of the IEEE*, 78(10), 1550-1560. [doi:10.1109/5.58337](https://doi.org/10.1109/5.58337).
 - Hochreiter, S. & Schmidhuber, J. (1997). Long Short-Term Memory. *Neural Computation*, 9(8), 1735-1780.
-- Bahdanau, D., Cho, K., & Bengio, Y. (2014). Neural Machine Translation by Jointly Learning to Align and Translate. [arXiv:1409.0473](https://arxiv.org/abs/1409.0473).
+- Sutskever, I., Vinyals, O. & Le, Q. V. (2014). Sequence to Sequence Learning with Neural Networks. *NeurIPS 2014*. [arXiv:1409.3215](https://arxiv.org/abs/1409.3215).
+- Bahdanau, D., Cho, K. & Bengio, Y. (2014). Neural Machine Translation by Jointly Learning to Align and Translate. [arXiv:1409.0473](https://arxiv.org/abs/1409.0473).
+- Luong, M.-T., Pham, H. & Manning, C. D. (2015). Effective Approaches to Attention-based Neural Machine Translation. *EMNLP 2015*. [arXiv:1508.04025](https://arxiv.org/abs/1508.04025).
 - Vaswani, A. et al. (2017). Attention Is All You Need. *NeurIPS 2017*. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762).
-- Zhao, W. X. et al. (2023). A Survey of Large Language Models. [arXiv:2303.18223](https://arxiv.org/abs/2303.18223).
+- Sutton, R. S. (2019). The Bitter Lesson. [Incomplete Ideas](http://www.incompleteideas.net/IncIdeas/BitterLesson.html).
 
 ---
 
@@ -42,6 +49,7 @@
 - Hoffmann, J. et al. (2022). Training Compute-Optimal Large Language Models (Chinchilla). [arXiv:2203.15556](https://arxiv.org/abs/2203.15556).
 - Wei, J. et al. (2022). Emergent Abilities of Large Language Models. [arXiv:2206.07682](https://arxiv.org/abs/2206.07682).
 - Schaeffer, R., Miranda, B. & Koyejo, S. (2023). Are Emergent Abilities of Large Language Models a Mirage? [arXiv:2304.15004](https://arxiv.org/abs/2304.15004).
+- Zhao, W. X. et al. (2023). A Survey of Large Language Models. [arXiv:2303.18223](https://arxiv.org/abs/2303.18223).
 
 ### Chapter 4: Teaching Machines to Follow Intent
 
