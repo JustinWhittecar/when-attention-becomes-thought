@@ -4,7 +4,7 @@ language = "en"
 multilingual = false
 src = "src"
 title = "When Attention Becomes Thought"
-description = "A literature review tracing the path from transformers to artificial general intelligence, 2017 to 2026."
+description = "A primer on AI from transformers to AGI, 2017 to 2026, written for readers who want to evaluate claims for themselves."
 
 [output.html]
 default-theme = "light"

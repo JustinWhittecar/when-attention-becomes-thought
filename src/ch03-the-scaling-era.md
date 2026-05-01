@@ -2,7 +2,7 @@
 
 > **This chapter is in progress.** What follows is the planned reading list and narrative outline. The finished prose will replace this scaffolding as the chapter is drafted. Track progress in the [changelog](changelog.md).
 
-*Last updated: 2026-04-22.*
+*Last updated: 2026-05-01.*
 
 ## Narrative job
 
@@ -10,15 +10,18 @@ Show that after 2017, the dominant lesson was not a new architecture but a new r
 
 ## Reading list
 
-1. Radford et al. (2018), "Improving Language Understanding by Generative Pre-Training" (GPT-1). Establishes the pretraining paradigm.
-2. Devlin et al. (2019), BERT. The other fork in the road; contrast bidirectional masking with autoregressive generation.
-3. Radford et al. (2019), "Language Models are Unsupervised Multitask Learners" (GPT-2). Where zero-shot enters the frame.
-4. Raffel et al. (2020), T5. The framing: every task as text to text.
-5. Brown et al. (2020), GPT-3. The central paper. Pay attention to in-context learning.
-6. Kaplan et al. (2020), "Scaling Laws for Neural Language Models."
-7. Hoffmann et al. (2022), Chinchilla. The correction.
-8. Wei et al. (2022), "Emergent Abilities of Large Language Models."
-9. Schaeffer, Miranda & Koyejo (2023), "Are Emergent Abilities of Large Language Models a Mirage?" The skeptical counter. Sharpens the treatment of emergence.
+1. LeCun, Bengio & Hinton (2015), "Deep Learning." *Nature* 521, 436-444. The field-defining survey, written from inside the revolution. Sets the lay-of-the-land for what scaling will then exploit.
+2. Radford et al. (2018), "Improving Language Understanding by Generative Pre-Training" (GPT-1). Establishes the pretraining paradigm.
+3. Devlin et al. (2019), BERT. The other fork in the road; contrast bidirectional masking with autoregressive generation.
+4. Radford et al. (2019), "Language Models are Unsupervised Multitask Learners" (GPT-2). Where zero-shot enters the frame.
+5. Raffel et al. (2020), T5. The framing: every task as text to text.
+6. Brown et al. (2020), GPT-3. The central paper. Pay attention to in-context learning.
+7. Chowdhery et al. (2022), PaLM. The 540B dense decoder companion to GPT-3 and Chinchilla. Read for what scaling reveals when the model gets bigger and the data composition is changed deliberately.
+8. Kaplan et al. (2020), "Scaling Laws for Neural Language Models."
+9. Hoffmann et al. (2022), Chinchilla. The correction.
+10. Wei et al. (2022), "Emergent Abilities of Large Language Models."
+11. Schaeffer, Miranda & Koyejo (2023), "Are Emergent Abilities of Large Language Models a Mirage?" The skeptical counter. Sharpens the treatment of emergence.
+12. Zhao et al. (2023), "A Survey of Large Language Models." Broad reference for the chapters' downstream concerns.
 
 ## What to watch
 

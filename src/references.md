@@ -1,6 +1,6 @@
 # References
 
-*Primary sources, organized by chapter in the order they are cited. Chapters 1 and 2 list sources already incorporated in the text. Chapters 3 through 9 list the reading program; those entries are marked as proposed until I have read them and cited them in prose.*
+*Primary sources, organized by chapter in the order they are cited. Chapters 1 and 2 list sources already incorporated in the text. Chapters 3 through 10 list the reading program; those entries are marked as proposed until I have read them and cited them in prose. A 'Further reading' section at the end of the page collects accessible textbooks and companion works for readers who want to go wider or deeper than any individual chapter requires.*
 
 *Last updated: 2026-05-01.*
 
@@ -40,11 +40,13 @@
 
 ### Chapter 3: The Scaling Era
 
+- LeCun, Y., Bengio, Y. & Hinton, G. (2015). Deep Learning. *Nature*, 521(7553), 436-444. [doi:10.1038/nature14539](https://doi.org/10.1038/nature14539).
 - Radford, A. et al. (2018). Improving Language Understanding by Generative Pre-Training (GPT-1).
 - Devlin, J. et al. (2019). BERT. [arXiv:1810.04805](https://arxiv.org/abs/1810.04805).
 - Radford, A. et al. (2019). Language Models are Unsupervised Multitask Learners (GPT-2).
 - Raffel, C. et al. (2020). Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (T5). [arXiv:1910.10683](https://arxiv.org/abs/1910.10683).
 - Brown, T. et al. (2020). Language Models are Few-Shot Learners (GPT-3). [arXiv:2005.14165](https://arxiv.org/abs/2005.14165).
+- Chowdhery, A. et al. (2022). PaLM: Scaling Language Modeling with Pathways. [arXiv:2204.02311](https://arxiv.org/abs/2204.02311).
 - Kaplan, J. et al. (2020). Scaling Laws for Neural Language Models. [arXiv:2001.08361](https://arxiv.org/abs/2001.08361).
 - Hoffmann, J. et al. (2022). Training Compute-Optimal Large Language Models (Chinchilla). [arXiv:2203.15556](https://arxiv.org/abs/2203.15556).
 - Wei, J. et al. (2022). Emergent Abilities of Large Language Models. [arXiv:2206.07682](https://arxiv.org/abs/2206.07682).
@@ -107,6 +109,7 @@
 - Bender, E. M., Gebru, T., McMillan-Major, A. & Shmitchell, S. (2021). On the Dangers of Stochastic Parrots. *FAccT 2021*.
 - Chollet, F. (2019). On the Measure of Intelligence. [arXiv:1911.01547](https://arxiv.org/abs/1911.01547).
 - Chollet, F. (2024/2025). ARC Prize report, latest edition.
+- Mitchell, M. (2021). Why AI is Harder Than We Think. [arXiv:2104.12871](https://arxiv.org/abs/2104.12871).
 - LeCun, Y. (2022). A Path Towards Autonomous Machine Intelligence. [OpenReview](https://openreview.net/forum?id=BZ5a1r-kVsf).
 - Marcus, G. (2020). The Next Decade in AI. [arXiv:2002.06177](https://arxiv.org/abs/2002.06177). Plus latest synthesis.
 - Kambhampati, S. et al. (2024). Position: LLMs Can't Plan, But Can Help Planning in LRM-Modulo Frameworks. *ICML 2024*.
@@ -114,10 +117,43 @@
 - Stanford AI Index Report, latest edition.
 - Jones, C. R. & Bergen, B. K. (2025). [arXiv:2503.23674](https://arxiv.org/abs/2503.23674).
 
-### Chapter 9: Open Problems and What Comes Next
+### Chapter 9: The Costs and Critiques
+
+- Strubell, E., Ganesh, A. & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. *ACL 2019*. [arXiv:1906.02243](https://arxiv.org/abs/1906.02243).
+- Patterson, D. et al. (2021). Carbon Emissions and Large Neural Network Training. [arXiv:2104.10350](https://arxiv.org/abs/2104.10350).
+- Henderson, P. et al. (2023). Foundation Models and Fair Use. [arXiv:2303.15715](https://arxiv.org/abs/2303.15715).
+- Buolamwini, J. & Gebru, T. (2018). Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification. *FAccT 2018*, *PMLR* 81, 77-91.
+- Obermeyer, Z., Powers, B., Vogeli, C. & Mullainathan, S. (2019). Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations. *Science*, 366(6464), 447-453. [doi:10.1126/science.aax2342](https://doi.org/10.1126/science.aax2342).
+- Gray, M. L. & Suri, S. (2019). *Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass*. Houghton Mifflin Harcourt.
+- Perrigo, B. (2023). Exclusive: OpenAI Used Kenyan Workers on Less Than \$2 Per Hour to Make ChatGPT Less Toxic. *Time*. [time.com](https://time.com/6247678/openai-chatgpt-kenya-workers/).
+
+### Chapter 10: Open Problems and What Comes Next
 
 - Stanford AI Index Report, latest edition.
 - Hendrycks, D. et al. Humanity's Last Exam, most recent iteration.
 - Anthropic / OpenAI recent posts on Responsible Scaling / Preparedness Framework.
 - Gu, A. & Dao, T. (2023). Mamba: Linear-Time Sequence Modeling with Selective State Spaces. [arXiv:2312.00752](https://arxiv.org/abs/2312.00752).
 - A 2026 paper on automated interpretability (to be selected).
+
+
+---
+
+## Further reading
+
+*Accessible textbooks and companion works for readers who want to go wider or deeper than any individual chapter requires. Cited from prose only when load-bearing. Otherwise listed here as continued-study scaffolding for the reader.*
+
+### Foundations and broad surveys
+
+- Russell, S. & Norvig, P. (2020). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson. The canonical broad-AI textbook covering search, planning, probabilistic reasoning, learning, and multi-agent systems.
+- Wooldridge, M. (2020). *A Brief History of Artificial Intelligence: What It Is, Where We Are, and Where We Are Going*. Flatiron Books. Accessible historical survey for readers who want broader context than Chapter 1 provides.
+
+### Technical depth (Chapters 2 through 6)
+
+- Goodfellow, I., Bengio, Y. & Courville, A. (2016). *Deep Learning*. MIT Press. [deeplearningbook.org](https://www.deeplearningbook.org/). Graduate-level technical reference. Priority chapters for our purposes: Ch. 6 (deep feedforward networks and backprop), Ch. 10 (recurrent and recursive nets), Ch. 12 (representation learning).
+- Bishop, C. M. (2006). *Pattern Recognition and Machine Learning*. Springer. Bayesian-leaning classical ML textbook. Useful background for readers who want the statistical learning foundations the deep-learning era inherited.
+- Hastie, T., Tibshirani, R. & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. Same role as Bishop, with a frequentist statistical-learning emphasis.
+
+### Critical and philosophical companions (Chapter 8)
+
+- Mitchell, M. (2019). *Artificial Intelligence: A Guide for Thinking Humans*. Farrar, Straus and Giroux. Accessible companion to her 2021 paper. Useful for readers who want a book-length treatment of where AI capabilities are and are not.
+- Tegmark, M. (2017). *Life 3.0: Being Human in the Age of Artificial Intelligence*. Knopf. Big-picture treatment of long-run AI futures from a physicist's perspective. Pop-philosophy rather than primary research; included for readers who want the layperson alignment-and-AGI conversation.

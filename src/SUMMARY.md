@@ -8,8 +8,9 @@
 - [Seeing Inside: Mechanistic Interpretability](ch06-interpretability.md)
 - [From Reasoning to Agency](ch07-agency.md)
 - [The AGI Question](ch08-agi-question.md)
-- [Open Problems and What Comes Next](ch09-open-problems.md)
-- [Conclusion](ch10-conclusion.md)
+- [The Costs and Critiques](ch09-costs-and-critiques.md)
+- [Open Problems and What Comes Next](ch10-open-problems.md)
+- [Conclusion](ch11-conclusion.md)
 
 ---
 
