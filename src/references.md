@@ -1,6 +1,6 @@
 # References
 
-*Primary sources, organized by chapter in the order they are cited. Chapters 1 and 2 list sources already incorporated in the text. Chapters 3 through 10 list the reading program; those entries are marked as proposed until I have read them and cited them in prose. A 'Further reading' section at the end of the page collects accessible textbooks and companion works for readers who want to go wider or deeper than any individual chapter requires.*
+*Primary sources, organized by chapter in the order they are cited. Chapters 1 and 2 list sources already incorporated in the text. Chapters 3 through 10 list the reading program; those entries are marked as proposed until I have read them and cited them in prose. A 'Further reading' section at the end of the page collects accessible textbooks and critical companion works for readers who want to go wider or deeper than any individual chapter requires, organized by what role they play.*
 
 *Last updated: 2026-05-01.*
 
@@ -56,6 +56,8 @@
 
 ### Chapter 4: Teaching Machines to Follow Intent
 
+- Russell, S. (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.
+- Christian, B. (2020). *The Alignment Problem: Machine Learning and Human Values*. W. W. Norton.
 - Christiano, P. et al. (2017). Deep Reinforcement Learning from Human Preferences. [arXiv:1706.03741](https://arxiv.org/abs/1706.03741).
 - Stiennon, N. et al. (2020). Learning to Summarize with Human Feedback. [arXiv:2009.01325](https://arxiv.org/abs/2009.01325).
 - Ouyang, L. et al. (2022). Training Language Models to Follow Instructions with Human Feedback (InstructGPT). [arXiv:2203.02155](https://arxiv.org/abs/2203.02155).
@@ -115,16 +117,22 @@
 - Marcus, G. (2020). The Next Decade in AI. [arXiv:2002.06177](https://arxiv.org/abs/2002.06177). Plus latest synthesis.
 - Kambhampati, S. et al. (2024). Position: LLMs Can't Plan, But Can Help Planning in LRM-Modulo Frameworks. *ICML 2024*.
 - Aschenbrenner, L. (2024). Situational Awareness.
+- Bostrom, N. (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press.
+- Yudkowsky, E. & Soares, N. (2025). *If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All*. Little, Brown and Company.
 - Stanford AI Index Report, latest edition.
 - Jones, C. R. & Bergen, B. K. (2025). [arXiv:2503.23674](https://arxiv.org/abs/2503.23674).
 
 ### Chapter 9: The Costs and Critiques
 
+- Crawford, K. (2021). *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*. Yale University Press.
+- O'Neil, C. (2016). *Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy*. Crown.
 - Strubell, E., Ganesh, A. & McCallum, A. (2019). Energy and Policy Considerations for Deep Learning in NLP. *ACL 2019*. [arXiv:1906.02243](https://arxiv.org/abs/1906.02243).
 - Patterson, D. et al. (2021). Carbon Emissions and Large Neural Network Training. [arXiv:2104.10350](https://arxiv.org/abs/2104.10350).
 - Henderson, P. et al. (2023). Foundation Models and Fair Use. [arXiv:2303.15715](https://arxiv.org/abs/2303.15715).
 - Buolamwini, J. & Gebru, T. (2018). Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification. *FAccT 2018*, *PMLR* 81, 77-91.
 - Obermeyer, Z., Powers, B., Vogeli, C. & Mullainathan, S. (2019). Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations. *Science*, 366(6464), 447-453. [doi:10.1126/science.aax2342](https://doi.org/10.1126/science.aax2342).
+- Benjamin, R. (2019). *Race After Technology: Abolitionist Tools for the New Jim Code*. Polity Press.
+- Eubanks, V. (2018). *Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor*. St. Martin's Press.
 - Gray, M. L. & Suri, S. (2019). *Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass*. Houghton Mifflin Harcourt.
 - Perrigo, B. (2023). Exclusive: OpenAI Used Kenyan Workers on Less Than \$2 Per Hour to Make ChatGPT Less Toxic. *Time*. [time.com](https://time.com/6247678/openai-chatgpt-kenya-workers/).
 
@@ -147,6 +155,7 @@
 
 - Russell, S. & Norvig, P. (2020). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson. The canonical broad-AI textbook covering search, planning, probabilistic reasoning, learning, and multi-agent systems.
 - Wooldridge, M. (2020). *A Brief History of Artificial Intelligence: What It Is, Where We Are, and Where We Are Going*. Flatiron Books. Accessible historical survey for readers who want broader context than Chapter 1 provides.
+- Nilsson, N. J. (2010). *The Quest for Artificial Intelligence: A History of Ideas and Achievements*. Cambridge University Press. Standard technical history of the field, written from inside the AI research community. Pair with Wooldridge for breadth.
 
 ### Technical depth (Chapters 2 through 6)
 
@@ -154,7 +163,18 @@
 - Bishop, C. M. (2006). *Pattern Recognition and Machine Learning*. Springer. Bayesian-leaning classical ML textbook. Useful background for readers who want the statistical learning foundations the deep-learning era inherited.
 - Hastie, T., Tibshirani, R. & Friedman, J. (2009). *The Elements of Statistical Learning* (2nd ed.). Springer. Same role as Bishop, with a frequentist statistical-learning emphasis.
 
+### Critique, governance, and political economy (Chapter 9)
+
+- Crawford, K. (2021). *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*. Yale University Press. [Cross-listed primary on Ch 9.]
+- O'Neil, C. (2016). *Weapons of Math Destruction*. Crown. [Cross-listed primary on Ch 9.]
+- Benjamin, R. (2019). *Race After Technology: Abolitionist Tools for the New Jim Code*. Polity. [Cross-listed primary on Ch 9.]
+- Eubanks, V. (2018). *Automating Inequality*. St. Martin's. [Cross-listed primary on Ch 9.]
+- Noble, S. U. (2018). *Algorithms of Oppression: How Search Engines Reinforce Racism*. NYU Press. Sister volume to Benjamin, focused on search and structural racism. The companion treatment if a reader wants the search-engines case after the broader theoretical frame.
+- Pasquale, F. (2015). *The Black Box Society: The Secret Algorithms That Control Money and Information*. Harvard University Press. The legal-STS classic on opacity and accountability. Useful when prose touches on governance or the demand for explainability.
+- Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs. Foundational on the institutional logic of data-driven platforms. Not AI-specific but the substrate within which modern AI deploys; selected chapters rather than full read for most primer readers.
+
 ### Critical and philosophical companions (Chapter 8)
 
 - Mitchell, M. (2019). *Artificial Intelligence: A Guide for Thinking Humans*. Farrar, Straus and Giroux. Accessible companion to her 2021 paper. Useful for readers who want a book-length treatment of where AI capabilities are and are not.
+- Chalmers, D. J. (2022). *Reality+: Virtual Worlds and the Problems of Philosophy*. W. W. Norton. Philosophy of mind for readers wanting a serious analytic-philosophy treatment of digital minds and what it means for an agent to be 'real.' Pairs with Tegmark on the consciousness side.
 - Tegmark, M. (2017). *Life 3.0: Being Human in the Age of Artificial Intelligence*. Knopf. Big-picture treatment of long-run AI futures from a physicist's perspective. Pop-philosophy rather than primary research; included for readers who want the layperson alignment-and-AGI conversation.

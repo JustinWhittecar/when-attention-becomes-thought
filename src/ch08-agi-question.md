@@ -21,8 +21,10 @@ The section readers came for. Treat the Chen et al. commentary as one input amon
 9. Marcus (2020/2024), "The Next Decade in AI" plus latest substack synthesis.
 10. Kambhampati et al. (2024), "LLMs Can't Plan" (ICML 2024).
 11. Aschenbrenner (2024), "Situational Awareness."
-12. Stanford AI Index Report, latest edition.
-13. Jones & Bergen (2025), arXiv:2503.23674. The Turing test paper; verify the 73% claim from the primary source.
+12. Bostrom (2014), *Superintelligence.* The canonical x-risk articulation. Anchor for the long-term-risk thread; set the historical context against which contemporary catastrophe arguments are pitched.
+13. Yudkowsky & Soares (2025), *If Anyone Builds It, Everyone Dies.* The strongest contemporary articulation of the catastrophe-under-current-paradigm thesis. Treat as one data point on the spectrum, not the load-bearing claim, and read alongside Bostrom and the technical skeptics on this list.
+14. Stanford AI Index Report, latest edition.
+15. Jones & Bergen (2025), arXiv:2503.23674. The Turing test paper; verify the 73% claim from the primary source.
 
 ## What to watch
 

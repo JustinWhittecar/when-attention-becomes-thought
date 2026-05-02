@@ -19,15 +19,19 @@ Four categories with the strongest empirical grounding, treated as the chapter's
 
 ## Reading list (starter)
 
-*This is a starter set. The chapter's full reading program will be expanded as the chapter is drafted. Each entry below is load-bearing for one of the four sections above.*
+*This is a starter set. The chapter's full reading program will be expanded as the chapter is drafted. The anchors and accessible-bridge entries open the list; section-specific entries follow.*
 
-1. Strubell, Ganesh & McCallum (2019), "Energy and Policy Considerations for Deep Learning in NLP." The paper that put training carbon cost on the field's agenda.
-2. Patterson et al. (2021), "Carbon Emissions and Large Neural Network Training." Google's response, with a more careful accounting of what training a frontier model actually emits.
-3. Henderson et al. (2023), "Foundation Models and Fair Use." The clearest current statement of where the legal debate sits and what doctrines are being tested.
-4. Buolamwini & Gebru (2018), "Gender Shades." The audit that demonstrated commercial face-classification systems failed worst on the people they were most often used against.
-5. Obermeyer et al. (2019), "Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations." The Science paper showing that proxies in training data can produce disparate impact even when race is not a feature.
-6. Gray & Suri (2019), *Ghost Work.* The book on the human labor pipeline behind systems that read as automated.
-7. Perrigo (2023), "Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic." *Time* investigation that named the conditions for current frontier-model RLHF labor.
+1. Crawford (2021), *Atlas of AI.* Cross-cutting STS anchor. Treats AI as an extractive industry across data, labor, environment, and power. The chapter's organizing argument runs through this book.
+2. O'Neil (2016), *Weapons of Math Destruction.* The accessible bridge between academic critique and public discourse. The most likely book a layperson reader has already heard of; useful for orienting them before the technical literature.
+3. Strubell, Ganesh & McCallum (2019), "Energy and Policy Considerations for Deep Learning in NLP." The paper that put training carbon cost on the field's agenda.
+4. Patterson et al. (2021), "Carbon Emissions and Large Neural Network Training." Google's response, with a more careful accounting of what training a frontier model actually emits.
+5. Henderson et al. (2023), "Foundation Models and Fair Use." The clearest current statement of where the legal debate sits and what doctrines are being tested.
+6. Buolamwini & Gebru (2018), "Gender Shades." The audit that demonstrated commercial face-classification systems failed worst on the people they were most often used against.
+7. Obermeyer et al. (2019), "Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations." The *Science* paper showing that proxies in training data can produce disparate impact even when race is not a feature.
+8. Benjamin (2019), *Race After Technology.* Critical-race-tech framing of how "neutral" systems amplify hierarchy and carceral logics. Reads the empirical bias literature through a structural lens.
+9. Eubanks (2018), *Automating Inequality.* Concrete state-power case studies (welfare, criminal justice) showing how automated decision systems reconfigure governance. The most accessible critical-tech book on this list.
+10. Gray & Suri (2019), *Ghost Work.* The book on the human labor pipeline behind systems that read as automated.
+11. Perrigo (2023), "Exclusive: OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic." *Time* investigation that named the conditions for current frontier-model RLHF labor.
 
 ## What to flag in the writing
 
