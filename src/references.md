@@ -20,6 +20,7 @@
 
 ## Chapter 2: The Spark
 
+- McCulloch, W. S. & Pitts, W. (1943). A Logical Calculus of the Ideas Immanent in Nervous Activity. *Bulletin of Mathematical Biophysics*, 5(4), 115-133. [doi:10.1007/BF02478259](https://doi.org/10.1007/BF02478259).
 - von Neumann, J. (1945). First Draft of a Report on the EDVAC. Moore School of Electrical Engineering, University of Pennsylvania. [PDF (MIT mirror)](https://web.mit.edu/sts.035/www/PDFs/edvac.pdf).
 - Godfrey, M. D. & Hendry, D. F. (1993). The Computer as von Neumann Planned It. *IEEE Annals of the History of Computing*, 15(1), 11-21. [doi:10.1109/85.194088](https://doi.org/10.1109/85.194088). [PDF (Stanford mirror)](http://cva.stanford.edu/classes/cs99s/papers/godfrey-computer-as-von-neumann-planned-it.pdf).
 - Felker, J. H. (1954). Performance of TRADIC Transistor Digital Computer. *Proceedings of the December 8-10, 1954, Eastern Joint Computer Conference*, pp. 46-49. [doi:10.1145/1455270.1455280](https://doi.org/10.1145/1455270.1455280).
