@@ -6,6 +6,18 @@ Mirrors `src/changelog.md`, which is what the built site shows.
 
 ## [Unreleased]
 
+### Changed
+- **Structural pivot from 11 chapters to 16.** The book is now organized in three parts. Part I (Chapters 2-6) is a new foundations sequence that takes a reader with no background through the convergence of mathematical logic, neuroscience, and computer engineering, the hardware curve from vacuum tubes through TPUs, the perceptron-to-backprop story, and the recurrent era that the transformer was built to surpass. Part II (Chapters 7-12) is the modern stack, refocused around the foundation Part I now provides. Part III (Chapters 13-16) is the AGI question, the costs and critiques, what comes next, and the conclusion.
+- **Pedagogical commitments formalized.** `FINISHING_PLAN.md` now codifies four standing rules: any hardware claim that depends on circuit-level behavior is shown in propositional logic before it is asserted in prose; any algorithm that carries the chapter's argument is shown in pseudocode before it is described; the CPU > GPU > TPU progression is the spine of the hardware story; and the book follows a "show, then tell" contract where a formal device introduced in chapter N is available as shorthand from chapter N+1 forward.
+- Existing chapter files renamed to their new positions. Chapter 2 (The Spark) is now Chapter 7. Chapters 3-11 shift to Chapters 8-16.
+- Chapter 1 closing roadmap rewritten to point the reader back to Boole rather than to 2017.
+- `src/references.md` reorganized to match the new chapter ordering. Most former Chapter 2 entries redistributed across new Chapters 3, 4, 5, 6, and 7.
+- `FINISHING_PLAN.md` rewritten with revised reading lists and per-chapter narrative jobs for all 16 chapters.
+
+### Added
+- New scaffolding files for `ch02-logic-beneath-the-machine.md`, `ch03-neuron-and-the-computer.md`, `ch04-tubes-to-tensors.md`, `ch05-learning-from-data.md`, and `ch06-sequences-and-memory.md`.
+- New proposed-reading sections in `references.md` for Chapters 2, 4, 5, and 6.
+
 ## [0.2.0] - 2026-04-24
 
 ### Added
