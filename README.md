@@ -4,7 +4,7 @@ By Justin Dielmann.
 
 ## What this is
 
-A book-length synthesis of the research that connects the 2017 transformer paper to the 2026 *Nature* commentary arguing that AGI has been achieved. Written for a general reader who wants to understand how we got here, with primary citations throughout.
+A book-length synthesis tracing the intellectual arc from George Boole's 1854 algebra of logic to the 2026 *Nature* commentary arguing that AGI has been achieved. Written for a general reader who wants to understand how we got here, with primary citations throughout.
 
 ## Read it
 
@@ -24,9 +24,10 @@ mdbook serve --open
 /src/                      # chapter source (what the book is built from)
   SUMMARY.md               # table of contents
   ch01-why-i-wrote-this.md
-  ch02-the-spark.md
-  ch03-the-scaling-era.md
+  ch02-logic-beneath-the-machine.md
+  ch03-neuron-and-the-computer.md
   ...
+  ch16-conclusion.md
   references.md
   changelog.md
 /papers/                   # local PDFs of primary sources (gitignored)
@@ -36,7 +37,9 @@ mdbook serve --open
 
 ## Status
 
-Chapter 1, *Why I Wrote This*, is published. Chapters 2 through 10 are in progress. Finished chapters are published one at a time on Fridays. See the [changelog](src/changelog.md) for what's shipped and what's coming.
+Chapter 1, *Why I Wrote This*, is published. Chapters 2 through 16 are in progress, organized in three parts: Foundations (Ch 2-6), The Modern Stack (Ch 7-12), and The Question (Ch 13-16). Chapters publish when they are ready; there is no committed schedule.
+
+I write in public. Each Friday I post a build-in-public update on LinkedIn covering what I read that week, what I learned, and what is still unresolved. The [changelog](src/changelog.md) is the canonical record of what has shipped.
 
 ## A note on AI use
 
