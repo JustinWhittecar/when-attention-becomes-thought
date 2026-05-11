@@ -22,5 +22,10 @@ notes/
 FINISHING_PLAN.md
 logical-notation-cheatsheet.md
 
+# Quartz wiki-site build artifacts
+wiki-site/node_modules/
+wiki-site/.quartz-cache/
+wiki-site/public/
+
 # Stray Zotero exports — bibliography.bib is the canonical bib
 /references/When Attention Becomes Thought.bib

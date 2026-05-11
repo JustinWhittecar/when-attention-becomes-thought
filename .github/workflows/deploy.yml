@@ -35,6 +35,25 @@ jobs:
       - name: Build book
         run: mdbook build
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Copy wiki content into Quartz
+        run: |
+          rm -rf wiki-site/content
+          cp -r references/Sources/wiki wiki-site/content
+
+      - name: Build wiki (Quartz)
+        run: |
+          cd wiki-site
+          npm ci
+          npx quartz build
+
+      - name: Combine book and wiki
+        run: cp -r wiki-site/public/ book/wiki/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
