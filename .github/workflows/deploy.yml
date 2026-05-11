@@ -43,7 +43,7 @@ jobs:
       - name: Copy wiki content into Quartz
         run: |
           rm -rf wiki-site/content
-          cp -r references/Sources/wiki wiki-site/content
+          cp -r references/Sources/Wiki wiki-site/content
 
       - name: Build wiki (Quartz)
         run: |
