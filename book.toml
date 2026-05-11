@@ -4,12 +4,13 @@ language = "en"
 multilingual = false
 src = "src"
 title = "When Attention Becomes Thought"
-description = "A primer on AI from transformers to AGI, 2017 to 2026, written for readers who want to evaluate claims for themselves."
+description = "A book tracing the project of formalizing thought, from Boole's 1854 algebra of logic to the 2026 Nature commentary on AGI. Written for readers who want to evaluate claims for themselves."
 
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
 no-section-label = false
+mathjax-support = true
 # Update the two URLs below once the repo is pushed to GitHub.
 git-repository-url = "https://github.com/JustinWhittecar/when-attention-becomes-thought"
 edit-url-template = "https://github.com/JustinWhittecar/when-attention-becomes-thought/edit/main/{path}"

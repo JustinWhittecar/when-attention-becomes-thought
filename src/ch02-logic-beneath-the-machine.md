@@ -14,6 +14,30 @@ Establish the deep idea behind every modern computer: that thinking can be done 
 - Pseudocode is introduced here as a way to describe a procedure independently of any one programming language. The half-adder is the first worked pseudocode block.
 - "Show, then tell." Every formal device that appears in prose later in the book is introduced here in its smallest worked example.
 
+## Notation reference
+
+The notation below is the modern conventions this book will use from this chapter forward. Boole's original notation (multiplication for AND, exclusive + for disjoint OR) gets shown in its historical context inside the chapter, then retired in favor of the table here. Once introduced, every later chapter assumes these without re-explanation.
+
+| Symbol | Name | What it means |
+| --- | --- | --- |
+| ¬ | Not | The opposite. ¬P is true exactly when P is false. |
+| ∧ | And | Both. P ∧ Q is true only when P and Q are both true. |
+| ∨ | Or | Either, or both. P ∨ Q is true when at least one of P, Q is true. Inclusive, not exclusive. |
+| ⊻ | Xor | Exactly one. P ⊻ Q is true when exactly one of P, Q is true, but not both. |
+| ⊼ | Nand | Not both. The negation of ∧. False only when P and Q are both true. |
+| ⊽ | Nor | Neither. The negation of ∨. True only when P and Q are both false. |
+| ⇒ | Implies | If-then. P ⇒ Q reads "if P then Q." False only when P is true and Q is false. |
+| ⇔ | If and only if | Same truth value. P ⇔ Q is true when P and Q are both true or both false. |
+| ∀ | For all | For every. ∀x. P(x) reads "for every x, P holds of x." |
+| ∃ | There exists | At least one. ∃x. P(x) reads "there is some x for which P holds." |
+| 1 | True | The truth value true. A tautology evaluates to 1: A ∨ ¬A ≡ 1. The choice of 1 (rather than ⊤) is deliberate; the rest of the book builds on this toward binary, circuits, and machine code. |
+| 0 | False | The truth value false. A contradiction evaluates to 0: A ∧ ¬A ≡ 0. |
+| ≡ | Logically equivalent to | A claim that two formulas always agree. Sits outside the formula, where ⇔ sits inside it. |
+| ∈ | Element of | Set or class membership. "x ∈ A" reads "x belongs to the class A." Honors Boole's class framing. |
+| := | Is defined as | Names a new gadget in terms of old ones. "HA(A, B) := (A ⊻ B, A ∧ B)" defines the half-adder. |
+
+Subscripts (A₀, A₁, …) are used for indexed bit positions in multi-bit work. They are typesetting, not new vocabulary.
+
 ## Reading list
 
 1. Boole, G. (1854). *An Investigation of the Laws of Thought.* Read the introduction and Chapter II ("Of Signs in General"). The founding text. Read for the move from "logic is an art" to "logic is a calculus."
