@@ -31,5 +31,5 @@
 ---
 
 [References](references.md)
-[Wiki](https://justinwhittecar.github.io/when-attention-becomes-thought/wiki/)
+[Wiki](wiki.md)
 [Changelog](changelog.md)
