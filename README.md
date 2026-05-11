@@ -10,6 +10,8 @@ A book-length synthesis tracing the intellectual arc from George Boole's 1854 al
 
 The book is live at **[justinwhittecar.github.io/when-attention-becomes-thought](https://justinwhittecar.github.io/when-attention-becomes-thought/)**.
 
+A companion **[wiki](https://justinwhittecar.github.io/when-attention-becomes-thought/wiki/)** covers key concepts, source summaries, and interlinked notes from the research behind the book.
+
 To build locally:
 
 ```bash
@@ -32,6 +34,8 @@ mdbook serve --open
   changelog.md
 /papers/                   # local PDFs of primary sources (gitignored)
 /references/bibliography.bib
+/references/Sources/Wiki/  # wiki markdown pages (published via Quartz)
+/wiki-site/                # Quartz v4 config for the wiki site
 /.github/workflows/        # GitHub Pages deployment
 ```
 
