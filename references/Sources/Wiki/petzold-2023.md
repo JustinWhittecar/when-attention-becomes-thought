@@ -4,7 +4,7 @@
 
 **Sources**: Code the hidden language of computer hardware and software.pdf
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-12
 
 ---
 
@@ -46,6 +46,10 @@ The book's climax is showing that a CPU is nothing more than a specific arrangem
 
 *Code* is the "how it's built" complement to the theoretical papers. Where [[boole-1854]] provides the algebra, [[shannon-1938]] the circuit mapping, and [[turing-1936]] the theory of computation, Petzold shows how all three come together in a physical machine. The CPU he constructs is a universal machine in Turing's sense — capable of executing any program, including the training and inference code for the [[transformer-architecture]].
 
+The CPU architecture Petzold builds -- with its separate arithmetic logic unit (processor) and RAM (memory) -- recapitulates the Mill/Store division that Babbage described in 1837 ([[babbage-1837]]). The [[analytical-engine]]'s Operation Cards, Repeating Apparatus, and carry-propagation mechanism are the mechanical ancestors of the instruction set, loops, and ALU carry logic that Petzold constructs from transistors.
+
+More specifically, the CPU Petzold builds in chapters 20-24 is a [[von-neumann-architecture|von Neumann machine]]: instructions and data share a single RAM; a control unit fetches, decodes, and executes one instruction at a time; conditional jumps depend on the sign or zero flag of a previous result. This is exactly the [[edvac|design John von Neumann published in his 1945 *First Draft*]], adapted for textbook clarity. The historical lineage of working machines that established this architecture -- [[eniac|ENIAC]], EDVAC, the [[manchester-baby|Manchester Baby]], [[edsac|EDSAC]] -- is documented in [[randell-1973]].
+
 ## Related pages
 
 - [[boolean-algebra]]
@@ -53,3 +57,13 @@ The book's climax is showing that a CPU is nothing more than a specific arrangem
 - [[turing-machine]]
 - [[universal-machine]]
 - [[computability]]
+- [[analytical-engine]]
+- [[babbage-1837]]
+- [[ada-lovelace]]
+- [[von-neumann-architecture]]
+- [[edvac]]
+- [[eniac]]
+- [[manchester-baby]]
+- [[edsac]]
+- [[stored-program-computer]]
+- [[randell-1973]]

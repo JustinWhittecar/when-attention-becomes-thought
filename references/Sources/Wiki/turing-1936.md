@@ -4,7 +4,7 @@
 
 **Sources**: On Computable Numbers, with an Application to the Entscheidungs Problem.pdf
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-12
 
 ---
 
@@ -35,7 +35,7 @@ Turing proves the existence of a **universal machine** U that can simulate any o
 
 ### The halting problem
 
-Using a diagonal argument (analogous to Cantor's proof that the reals are uncountable), Turing proves there is no general procedure to determine whether an arbitrary Turing machine will halt or run forever. This is the halting problem — the first concrete example of an undecidable problem (source: On Computable Numbers, with an Application to the Entscheidungs Problem.pdf).
+Using a [[diagonal-argument]] (structurally identical to [[cantor-1891]]'s proof that the reals are [[uncountability|uncountable]]), Turing proves there is no general procedure to determine whether an arbitrary Turing machine will halt or run forever. This is the halting problem — the first concrete example of an undecidable problem (source: On Computable Numbers, with an Application to the Entscheidungs Problem.pdf).
 
 ### The Entscheidungsproblem is undecidable
 
@@ -54,6 +54,14 @@ These examples illustrate the convention of using alternating F-squares (for out
 
 This paper is the pivot point of the entire narrative. It takes the formal-logic tradition of [[frege-1879]], [[boole-1854]], and [[whitehead-russell-1910]], and transforms it into a theory of physical machines. The [[turing-machine]] is the abstract blueprint that Shannon's switching circuits ([[shannon-1938]]) and Petzold's hardware narrative ([[petzold-2023]]) make concrete. And the idea that machines can be universal — capable of running any program — is what ultimately leads to LLMs and the [[turing-test]].
 
+Historically, the [[analytical-engine]] described by [[babbage-1837]] was the first design for a general-purpose programmable machine, and [[ada-lovelace]]'s recognition that it could manipulate symbols beyond mere quantity ([[lovelace-1843]]) anticipates Turing's universal machine concept.
+
+## Realisation in hardware
+
+Turing's universal machine is an abstract construction on an infinite tape, but its core idea -- that a single device can simulate any other if the description of the other is supplied to it as data -- is exactly the principle that John von Neumann's 1945 [[edvac|*First Draft of a Report on the EDVAC*]] turns into engineering. The [[stored-program-computer|stored-program computer]] is the universal machine made physical. The [[manchester-baby|Manchester Baby]] (June 1948) was the first device to realise this in working hardware; [[edsac|EDSAC]] (May 1949) was the first to use it for routine scientific work. The complete arc from this 1936 paper to working stored-program hardware is documented in [[randell-1973]].
+
+Turing himself worked on practical computing machinery during and after the war -- at [[colossus|Bletchley Park]] (1939-1945) on Enigma and Tunny, then on the ACE proposal at the National Physical Laboratory (1945-1947), then on the Manchester computer (1948 onwards). He is one of the few mathematicians to have defined a class of machine in theory and then lived to write programs for its physical instances.
+
 ## Related pages
 
 - [[turing-machine]]
@@ -67,3 +75,16 @@ This paper is the pivot point of the entire narrative. It takes the formal-logic
 - [[shannon-1938]]
 - [[universal-machine]]
 - [[godel-numbering]]
+- [[cantor-1891]]
+- [[diagonal-argument]]
+- [[analytical-engine]]
+- [[babbage-1837]]
+- [[ada-lovelace]]
+- [[edvac]]
+- [[von-neumann-architecture]]
+- [[stored-program-computer]]
+- [[manchester-baby]]
+- [[edsac]]
+- [[eniac]]
+- [[colossus]]
+- [[randell-1973]]

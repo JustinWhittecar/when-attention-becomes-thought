@@ -43,6 +43,7 @@ The paper introduces the concept of **primitive recursive functions** — functi
 
 Gödel's paper occupies a pivotal position in the chain from logic to computation:
 
+- **Cantor (1891)**: Introduces the [[diagonal-argument]] -- the proof technique that Gödel's self-referential construction generalizes ([[cantor-1891]])
 - **Frege (1879)**: Formal logic capable of expressing mathematics ([[frege-1879]])
 - **Russell's paradox (1902)**: Reveals a flaw in Frege's system ([[russell-1902]])
 - **Principia (1910)**: Repairs the flaw via type theory ([[whitehead-russell-1910]])
@@ -70,3 +71,5 @@ Gödel's technique of encoding syntax as numbers is also a conceptual ancestor o
 - [[hilbert-ackermann-1928]]
 - [[turing-1936]]
 - [[russells-paradox]]
+- [[cantor-1891]]
+- [[diagonal-argument]]

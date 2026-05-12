@@ -4,6 +4,10 @@
 # Local PDFs of primary sources. Do not commit.
 /papers/*.pdf
 /papers/*.PDF
+/references/Sources/Raw/
+
+# Obsidian vault metadata (local editor state)
+/references/Sources/.obsidian/
 
 # Editor / OS
 .DS_Store
@@ -18,7 +22,8 @@
 # Internal / personal files
 .claude/
 CLAUDE_CODE_GUIDE.md
-notes/
+notes/drafts/
+notes/personal-shelf.md
 FINISHING_PLAN.md
 logical-notation-cheatsheet.md
 

@@ -48,6 +48,8 @@ The Turing machine is an abstraction — it has an infinite tape, which no physi
 | State | Program counter + registers |
 | Transition table | Instruction set |
 
+The earliest design for such a machine was Babbage's [[analytical-engine]] ([[babbage-1837]]), which separated processing (the Mill) from memory (the Store) and used Operation Cards for instructions -- the same division shown in this table, realized in mechanical gears rather than electronic circuits.
+
 Shannon's 1938 thesis ([[shannon-1938]]) showed how to build the logical components from circuits. Petzold's *Code* ([[petzold-2023]]) shows how those components compose into a complete CPU that is, in effect, a universal Turing machine with finite memory.
 
 ## The Church-Turing thesis
@@ -65,3 +67,7 @@ Turing showed in an appendix to his 1936 paper that his notion of computability 
 - [[hilbert-ackermann-1928]]
 - [[shannon-1938]]
 - [[petzold-2023]]
+- [[analytical-engine]]
+- [[babbage-1837]]
+- [[cantor-1891]]
+- [[diagonal-argument]]

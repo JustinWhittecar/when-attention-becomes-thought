@@ -51,7 +51,7 @@ Incompleteness and undecidability are related but distinct:
 |---|---|---|
 | Says | Some truths have no proof | No algorithm can find all proofs |
 | Proved by | Gödel (1931) | Turing (1936) |
-| Method | [[godel-numbering]] and self-reference | [[turing-machine]] and diagonalization |
+| Method | [[godel-numbering]] and self-reference | [[turing-machine]] and [[diagonal-argument]] |
 | Applies to | Formal systems expressing arithmetic | First-order [[predicate-logic]] in general |
 
 Turing's resolution of the [[entscheidungsproblem]] is the computational counterpart of Gödel's result. See [[turing-1936]].
@@ -70,3 +70,5 @@ Gödel's paper title explicitly names [[whitehead-russell-1910]]. His formal sys
 - [[whitehead-russell-1910]]
 - [[computability]]
 - [[turing-1936]]
+- [[cantor-1891]]
+- [[diagonal-argument]]

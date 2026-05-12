@@ -50,7 +50,7 @@ The paradox's self-referential structure reappears throughout the theory of comp
 
 - **The liar paradox**: "This sentence is false" — Russell's paradox is the set-theoretic version of this ancient puzzle
 - **The barber paradox**: The barber who shaves all and only those who do not shave themselves — Russell's own informal illustration
-- **Cantor's paradox**: There is no set of all sets (since its power set would be larger than it)
+- **Cantor's paradox**: There is no set of all sets (since its power set would be larger than it) -- see [[cantor-1891]] for the [[diagonal-argument]] that proves the power set is always strictly larger
 
 ## Related pages
 
@@ -61,3 +61,5 @@ The paradox's self-referential structure reappears throughout the theory of comp
 - [[godel-1931]]
 - [[godel-numbering]]
 - [[hilbert-ackermann-1928]]
+- [[cantor-1891]]
+- [[diagonal-argument]]

@@ -28,7 +28,11 @@ All three formalisms define exactly the same class of computable functions. Turi
 
 ### The halting problem is undecidable
 
-There is no general procedure to determine whether an arbitrary Turing machine halts on a given input. Turing proves this by a diagonal argument: assuming such a procedure exists leads to a contradiction (source: On Computable Numbers, with an Application to the Entscheidungs Problem.pdf).
+There is no general procedure to determine whether an arbitrary Turing machine halts on a given input. Turing proves this by a [[diagonal-argument]] -- structurally identical to [[cantor-1891]]'s proof that the set of infinite binary sequences is [[uncountability|uncountable]]. Assuming such a procedure exists leads to a contradiction (source: On Computable Numbers, with an Application to the Entscheidungs Problem.pdf).
+
+### Uncountability and uncomputability
+
+The connection between [[uncountability]] and uncomputability is direct: the set of all Turing machines is countable (each has a finite description), but the set of all functions from natural numbers to {0,1} is uncountable (by Cantor's theorem). Therefore most functions are not computable -- there are more problems than programs. See [[cantor-1891]].
 
 ### The Entscheidungsproblem is undecidable
 
@@ -59,3 +63,7 @@ Modern AI systems, including LLMs built on the [[transformer-architecture]], are
 - [[godel-1931]]
 - [[incompleteness]]
 - [[godel-numbering]]
+- [[cantor-1891]]
+- [[diagonal-argument]]
+- [[uncountability]]
+- [[analytical-engine]]

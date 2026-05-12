@@ -68,3 +68,5 @@ Boolean algebra underlies:
 - [[petzold-2023]]
 - [[formal-system]]
 - [[predicate-logic]]
+- [[analytical-engine]]
+- [[babbage-1837]]

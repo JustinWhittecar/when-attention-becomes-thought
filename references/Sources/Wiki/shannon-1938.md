@@ -4,7 +4,7 @@
 
 **Sources**: A Symbolic Analysis of Relay and Switching Circuits.pdf
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-12
 
 ---
 
@@ -52,9 +52,15 @@ The binary adder example is particularly significant: it shows that arithmetic i
 
 This paper is the bridge between abstract logic and physical hardware. Boole ([[boole-1854]]) showed that logic could be algebra. Turing ([[turing-1936]]) showed that computation could be formalized as a machine. Shannon showed that Boole's algebra could be directly implemented in electrical circuits — giving Turing's abstract machine a physical body. The same principles, scaled up from relays to vacuum tubes to transistors, underlie every digital computer, including those that train and run the [[transformer-architecture]] (see [[petzold-2023]] for the full hardware story).
 
+Shannon's relay circuits are, in effect, the electrical miniaturization of the mechanical logic that Babbage built into the [[analytical-engine]] ([[babbage-1837]]). Where Babbage used gears, levers, and barrels to implement arithmetic and conditional branching, Shannon showed the same operations could be accomplished with switches and wires governed by [[boolean-algebra]].
+
 ## Legacy
 
 Shannon's thesis has been called "possibly the most important, and also the most famous, master's thesis of the century" (Howard Gardner). The techniques it introduced remain the basis of digital logic design. Shannon went on to found [[information-theory]] a decade later with his 1948 paper (see [[shannon-1948]]).
+
+## From relay logic to relay computers
+
+Shannon's switching theory was almost immediately put to work in actual computing machines. George Stibitz at Bell Telephone Laboratories built the Model K (1937) and the Complex Number Computer (1940) using exactly the relay-and-Boolean-algebra principles Shannon had formalised; subsequent Bell Labs Models II-V (1943-1946) were full programmable relay computers, documented in Chapter 6 of [[randell-1973]]. [[harvard-mark-i|Howard Aiken's Harvard Mark I]] (1944) and [[zuse-z3|Konrad Zuse's Z3]] (1941) -- the latter built in Berlin without knowledge of Shannon's thesis but arriving at the same synthesis -- were the major programmable relay computers of the 1940s. The transition from relays to vacuum tubes ([[colossus]], [[eniac]]) and then to transistors did not change the underlying Boolean logic; Shannon's isomorphism survives every change of switching element.
 
 ## Related pages
 
@@ -64,3 +70,13 @@ Shannon's thesis has been called "possibly the most important, and also the most
 - [[petzold-2023]]
 - [[shannon-1948]]
 - [[information-theory]]
+- [[analytical-engine]]
+- [[babbage-1837]]
+- [[harvard-mark-i]]
+- [[zuse-z3]]
+- [[colossus]]
+- [[eniac]]
+- [[edvac]]
+- [[von-neumann-architecture]]
+- [[stored-program-computer]]
+- [[randell-1973]]

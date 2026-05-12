@@ -34,14 +34,16 @@ A **theorem** is any wff that can be derived from the axioms by repeated applica
 
 The history traced by these sources is essentially the story of formal systems becoming physical:
 
-1. **Frege (1879)**: Creates the first formal system powerful enough for mathematics ([[frege-1879]])
-2. **Russell (1902)**: Discovers [[russells-paradox]], showing Frege's system is inconsistent ([[russell-1902]])
-3. **Russell & Whitehead (1910)**: Build the most ambitious formal system ever attempted ([[whitehead-russell-1910]])
-4. **Hilbert & Ackermann (1928)**: Systematize the logic, pose the [[entscheidungsproblem]] ([[hilbert-ackermann-1928]])
-5. **Gödel (1931)**: Proves all sufficiently powerful formal systems are [[incompleteness|incomplete]] via [[godel-numbering]] ([[godel-1931]])
-6. **Turing (1936)**: Responds by formalizing the notion of "mechanical procedure" itself — the [[turing-machine]] — and proves the Entscheidungsproblem undecidable ([[turing-1936]])
-7. **Shannon (1938)**: Shows that formal logical operations can be implemented in physical circuits ([[shannon-1938]])
-8. **Petzold (2023)**: Narrates how those circuits compose into a universal computer ([[petzold-2023]])
+1. **Babbage (1837)**: Designs the [[analytical-engine]], the first general-purpose programmable machine ([[babbage-1837]]); [[ada-lovelace]] writes the first program and recognizes that its operations are symbolic, not merely numerical ([[lovelace-1843]])
+2. **Cantor (1891)**: Introduces the [[diagonal-argument]], proving [[uncountability]] and establishing that some infinities are larger than others ([[cantor-1891]])
+3. **Frege (1879)**: Creates the first formal system powerful enough for mathematics ([[frege-1879]])
+4. **Russell (1902)**: Discovers [[russells-paradox]], showing Frege's system is inconsistent ([[russell-1902]])
+5. **Russell & Whitehead (1910)**: Build the most ambitious formal system ever attempted ([[whitehead-russell-1910]])
+6. **Hilbert & Ackermann (1928)**: Systematize the logic, pose the [[entscheidungsproblem]] ([[hilbert-ackermann-1928]])
+7. **Gödel (1931)**: Proves all sufficiently powerful formal systems are [[incompleteness|incomplete]] via [[godel-numbering]] ([[godel-1931]])
+8. **Turing (1936)**: Responds by formalizing the notion of "mechanical procedure" itself — the [[turing-machine]] — and proves the Entscheidungsproblem undecidable ([[turing-1936]])
+9. **Shannon (1938)**: Shows that formal logical operations can be implemented in physical circuits ([[shannon-1938]])
+10. **Petzold (2023)**: Narrates how those circuits compose into a universal computer ([[petzold-2023]])
 
 The formal system concept is thus the thread connecting abstract logic to physical computing.
 
@@ -67,3 +69,9 @@ The formal system concept is thus the thread connecting abstract logic to physic
 - [[incompleteness]]
 - [[godel-numbering]]
 - [[entscheidungsproblem]]
+- [[cantor-1891]]
+- [[diagonal-argument]]
+- [[uncountability]]
+- [[analytical-engine]]
+- [[babbage-1837]]
+- [[ada-lovelace]]

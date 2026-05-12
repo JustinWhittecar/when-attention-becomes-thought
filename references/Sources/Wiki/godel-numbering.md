@@ -46,6 +46,8 @@ Gödel shows that the key metamathematical predicates — "x is a variable," "x 
 
 Gödel numbering is conceptually analogous to the stored-program idea: in both cases, the "instructions" (formulas, programs) are represented as "data" (numbers, memory contents). Turing's [[universal-machine]] makes this analogy concrete — a single machine that reads an encoded description of another machine and simulates it. The progression runs: Gödel numbers (1931) -> Turing's description numbers (1936) -> von Neumann's stored-program architecture (1945).
 
+[[ada-lovelace]] anticipated this data-instruction equivalence in 1843 when she recognized that Babbage's [[analytical-engine]] could manipulate symbols of any kind -- not just numerical quantities -- because those symbols could be encoded as numbers ([[lovelace-1843]]).
+
 ## Gödel's 46 definitions
 
 Gödel defines a sequence of 46 arithmetical concepts (definitions 1-46 in his paper) that correspond, via the encoding, to metamathematical concepts. Examples:
@@ -65,3 +67,7 @@ Definitions 1-45 are all primitive recursive. Definition 46 introduces an unboun
 - [[universal-machine]]
 - [[turing-1936]]
 - [[russells-paradox]]
+- [[cantor-1891]]
+- [[diagonal-argument]]
+- [[ada-lovelace]]
+- [[analytical-engine]]
