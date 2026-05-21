@@ -25,7 +25,7 @@ mdbook serve --open
 /book.toml                    # mdBook config
 /src/                         # chapter source (what the book is built from)
   SUMMARY.md                  # table of contents
-  introduction-why-i-wrote-this.md
+  introduction-a-love-letter.md
   ch01-logic-beneath-the-machine.md
   ...
   ch15-conclusion.md

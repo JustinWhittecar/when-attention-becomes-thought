@@ -32,5 +32,8 @@ enable = true
 enable = false
 level = 0
 
+[output.html.redirect]
+"/introduction-why-i-wrote-this.html" = "introduction-a-love-letter.html"
+
 [preprocessor.citeproc]
 command = "python3 tools/mdbook-citeproc.py"
