@@ -79,6 +79,8 @@ def iter_chapters(book):
     out = []
     def rec(items):
         for it in items:
+            if not isinstance(it, dict):
+                continue
             ch = it.get('Chapter')
             if ch is not None:
                 out.append(ch)
