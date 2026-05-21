@@ -4,7 +4,7 @@
 
 **Sources**: The Origins of Digital Computers - Unknown.pdf
 
-**Last updated**: 2026-05-12
+**Last updated**: 2026-05-13
 
 ---
 
@@ -22,7 +22,7 @@ Hollerith's system had three elements (source: The Origins of Digital Computers 
 
 3. **The tabulating machine.** The card was placed under a matrix of spring-loaded pins. Where there was a hole, a pin descended through and dipped into a mercury cup, completing an electrical circuit. The circuit advanced an electromechanical counter -- one for each question of interest. A sorting machine routed cards into compartments according to which holes were punched.
 
-The key innovation was the use of *electrical* sensing of punched holes. Earlier punched-tape and punched-card devices ([[analytical-engine|Jacquard looms]], music-box drums) used mechanical sensing, where pins felt the surface for holes. Electrical sensing was faster, more reliable, and allowed many holes to be sensed simultaneously by a circuit matrix. (source: The Origins of Digital Computers - Unknown.pdf)
+The key innovation was the use of *electrical* sensing of punched holes. Earlier punched-tape and punched-card devices ([[jacquard-loom|Jacquard looms]], music-box drums) used mechanical sensing, where pins felt the surface for holes. Electrical sensing was faster, more reliable, and allowed many holes to be sensed simultaneously by a circuit matrix. (source: The Origins of Digital Computers - Unknown.pdf)
 
 ## From census to IBM
 
@@ -47,5 +47,6 @@ It is also worth noting the darker side of this history: Hollerith equipment was
 - [[harvard-mark-i]]
 - [[analytical-engine]]
 - [[babbage-1837]]
+- [[jacquard-loom]]
 - [[eniac]]
 - [[randell-1973]]

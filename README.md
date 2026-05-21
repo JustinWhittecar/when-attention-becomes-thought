@@ -22,26 +22,29 @@ mdbook serve --open
 ## Repository layout
 
 ```
-/book.toml                 # mdBook config
-/src/                      # chapter source (what the book is built from)
-  SUMMARY.md               # table of contents
-  ch01-why-i-wrote-this.md
-  ch02-logic-beneath-the-machine.md
-  ch03-neuron-and-the-computer.md
+/book.toml                    # mdBook config
+/src/                         # chapter source (what the book is built from)
+  SUMMARY.md                  # table of contents
+  introduction-why-i-wrote-this.md
+  ch01-logic-beneath-the-machine.md
   ...
-  ch16-conclusion.md
+  ch15-conclusion.md
   references.md
   changelog.md
-/papers/                   # local PDFs of primary sources (gitignored)
-/references/bibliography.bib
-/references/Sources/Wiki/  # wiki markdown pages (published via Quartz)
-/wiki-site/                # Quartz v4 config for the wiki site
-/.github/workflows/        # GitHub Pages deployment
+  wiki.md
+  end-matter/                 # appendices, reference tables, glossary
+/references/bibliography.bib  # canonical bibliography (IEEE)
+/references/ieee.csl          # citation style
+/references/Sources/Wiki/     # wiki markdown pages (published via Quartz)
+/tools/                       # mdBook citeproc preprocessor
+/wiki-site/                   # Quartz v4 config for the wiki site
+/.github/workflows/           # GitHub Pages deployment
+/working/                     # notes, drafts, scratch (local only, not committed)
 ```
 
 ## Status
 
-Chapter 1, *Why I Wrote This*, is published. Chapters 2 through 16 are in progress, organized in three parts: Foundations (Ch 2-6), The Modern Stack (Ch 7-12), and The Question (Ch 13-16). Chapters publish when they are ready; there is no committed schedule.
+The Introduction and Chapter 1, *The Logic Beneath the Machine*, are drafted. The remaining chapters are in progress, organized in three parts: Foundations (Ch 1-5), The Modern Stack (Ch 6-11), and The Question (Ch 12-15). Chapters publish when they are ready; there is no committed schedule.
 
 I write in public. Each Friday I post a build-in-public update on LinkedIn covering what I read that week, what I learned, and what is still unresolved. The [changelog](src/changelog.md) is the canonical record of what has shipped.
 

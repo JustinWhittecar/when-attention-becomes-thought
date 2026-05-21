@@ -32,7 +32,7 @@ The *First Draft* introduces, in roughly this order (source: The Origins of Digi
 
 7. **Mercury delay lines as memory.** Eckert had proposed using ultrasonic waves circulating in tubes of mercury as a serial-access memory. The *First Draft* adopted this scheme, though Williams cathode-ray-tube storage would soon supersede it.
 
-The document uses a quasi-physiological vocabulary -- "organs", "neurons", "associative memory" -- influenced by the [[https://en.wikipedia.org/wiki/Warren_Sturgis_McCulloch|McCulloch]]-Pitts 1943 paper on neural logic. This vocabulary did not survive into the engineering literature, but the substantive design did.
+The document uses a quasi-physiological vocabulary -- "organs", "neurons", "associative memory" -- influenced by the McCulloch-Pitts 1943 paper on neural logic. This vocabulary did not survive into the engineering literature, but the substantive design did.
 
 ## The physical EDVAC
 

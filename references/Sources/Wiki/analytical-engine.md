@@ -4,7 +4,7 @@
 
 **Sources**: On the Mathematical Powers of the Calculating Engine.pdf, A_Lovelace_offprints_IEEE_plus_postscript.pdf
 
-**Last updated**: 2026-05-12
+**Last updated**: 2026-05-13
 
 ---
 
@@ -25,7 +25,7 @@ This Mill/Store separation is the architectural ancestor of the processor/memory
 
 The engine was to be controlled by **Operation Cards** (specifying which arithmetic operation to perform) and **Variable Cards** (specifying which store columns to read from and write to). This separation of instructions from data prefigures the stored-program concept, though in the Analytical Engine the program remained external on cards rather than stored in memory.
 
-The **Repeating Apparatus** allowed sequences of cards to be re-executed, providing the equivalent of loops. [[ada-lovelace]] exploited this capability in her Note G to describe an algorithm for computing Bernoulli numbers -- the first published computer program ([[lovelace-1843]]). (source: A_Lovelace_offprints_IEEE_plus_postscript.pdf)
+The card mechanism was adopted from the [[jacquard-loom|Jacquard loom]] in June 1836. The **Repeating Apparatus** allowed sequences of cards to be re-executed, providing the equivalent of loops. [[ada-lovelace]] exploited this capability in her Note G to describe an algorithm for computing Bernoulli numbers -- the first published computer program ([[lovelace-1843]]). (source: A_Lovelace_offprints_IEEE_plus_postscript.pdf)
 
 ## The "Running Up" mechanism
 
@@ -72,4 +72,7 @@ The Analytical Engine was never built, but its conceptual architecture reappears
 - [[stored-program-computer]]
 - [[von-neumann-architecture]]
 - [[hollerith-1889]]
+- [[jacquard-loom]]
+- [[ias-computer]]
+- [[bell-labs-relay-computers]]
 - [[randell-1973]]

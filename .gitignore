@@ -1,6 +1,9 @@
 # mdBook build output
 /book/
 
+# Working files: notes, drafts, scratch, exports. Local only, never exported.
+/working/
+
 # Local PDFs of primary sources. Do not commit.
 /papers/*.pdf
 /papers/*.PDF
@@ -15,22 +18,16 @@
 *.swo
 .idea/
 .vscode/
-
-# Google Docs shortcut files (if you keep them locally)
-*.gdoc
-
-# Internal / personal files
 .claude/
-CLAUDE_CODE_GUIDE.md
-notes/drafts/
-notes/personal-shelf.md
-FINISHING_PLAN.md
-logical-notation-cheatsheet.md
+
+# Generated exports (regenerable from chapter source)
+*.docx
+*.gdoc
 
 # Quartz wiki-site build artifacts
 wiki-site/node_modules/
 wiki-site/.quartz-cache/
 wiki-site/public/
 
-# Stray Zotero exports — bibliography.bib is the canonical bib
+# Stray Zotero exports. bibliography.bib is the canonical bib.
 /references/When Attention Becomes Thought.bib

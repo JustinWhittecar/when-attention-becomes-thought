@@ -1,4 +1,4 @@
-## **Appendix: Further Reading**
+# Appendix: Further Reading
 
 *Organized by discipline so readers can pursue any single thread from its foundations to the current literature.*
 

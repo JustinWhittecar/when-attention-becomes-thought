@@ -31,3 +31,6 @@ enable = true
 [output.html.fold]
 enable = false
 level = 0
+
+[preprocessor.citeproc]
+command = "python3 tools/mdbook-citeproc.py"
