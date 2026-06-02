@@ -6,11 +6,11 @@
 
 ## Narrative job
 
-Drop recurrence. Keep attention. Show that the transformer architecture, by replacing the sequential bottleneck of the recurrent encoder-decoder with a fully parallel attention mechanism, unlocked a new relationship between compute and capability. By this point the reader has already met scaled dot-product attention as a patch on RNNs (Chapter 6) and the GPU as the silicon that rewards parallel matrix multiplication (Chapter 4). This chapter does the synthesis: when attention becomes the only mechanism a sequence model needs, the operation that dominates is matmul, the silicon that runs matmul fastest is the GPU, and the relationship between training compute and model capability becomes the story of the next decade. End by setting up the scaling era.
+Drop recurrence. Keep attention. Show that the transformer architecture, by replacing the sequential bottleneck of the recurrent encoder-decoder with a fully parallel attention mechanism, unlocked a new relationship between compute and capability. By this point the reader has already met scaled dot-product attention as a patch on RNNs (Chapter 5) and the GPU as the silicon that rewards parallel matrix multiplication (Chapter 3). This chapter does the synthesis: when attention becomes the only mechanism a sequence model needs, the operation that dominates is matmul, the silicon that runs matmul fastest is the GPU, and the relationship between training compute and model capability becomes the story of the next decade. End by setting up the scaling era.
 
 ## Pedagogical commitments for this chapter
 
-- The full transformer block is built up from pieces the reader has already met: scaled dot-product attention (Chapter 6), feedforward layers (Chapter 5), residual connections and layer normalization (introduced here, in pseudocode, before any prose claim depends on them).
+- The full transformer block is built up from pieces the reader has already met: scaled dot-product attention (Chapter 5), feedforward layers (Chapter 4), residual connections and layer normalization (introduced here, in pseudocode, before any prose claim depends on them).
 - Pseudocode for self-attention, multi-head attention, and a single transformer block. Each is small enough to read in one sitting.
 - A worked example showing why self-attention is parallel where recurrence is sequential, expressed in terms of which operations can run on which step of which timestep. The reader leaves understanding the architectural argument, not just the marketing line.
 
@@ -25,7 +25,7 @@ Drop recurrence. Keep attention. Show that the transformer architecture, by repl
 
 ## Worked examples to build into the chapter
 
-- Scaled dot-product attention written out as pseudocode: matmul, scale, softmax, matmul. Six lines. The reader has seen this before in Chapter 6, recurrent context. Now it stands alone.
+- Scaled dot-product attention written out as pseudocode: matmul, scale, softmax, matmul. Six lines. The reader has seen this before in Chapter 5, recurrent context. Now it stands alone.
 - Multi-head attention as the same operation run in parallel with different learned projections. Pseudocode: ten to twelve lines. The reader sees that "multi-head" is just "do the same thing several times with different views and concatenate."
 - A single transformer block: attention, residual, layer norm, feedforward, residual, layer norm. Pseudocode: fifteen lines. This is the unit that everything later in the book is built from.
 - A diagram showing two encoder layers running in parallel across a four-token sequence. The same diagram drawn for an LSTM would be a diagonal staircase. The contrast is the chapter's central image.

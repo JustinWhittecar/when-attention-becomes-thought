@@ -6,7 +6,7 @@
 
 ## Narrative job
 
-Turn the empirical case into a structural one. If we want to know whether the reasoning in Chapter 5 is "real," we look inside. Show what the tools can see, what they find, and what they cannot yet see.
+Turn the empirical case into a structural one. If we want to know whether the reasoning in Chapter 9 is "real," we look inside. Show what the tools can see, what they find, and what they cannot yet see.
 
 ## Reading list
 

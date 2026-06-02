@@ -6,7 +6,7 @@
 
 # Part I: Foundations
 
-- [The Logic Beneath the Machine]() <!-- Draft entry while in friend review — restore the link to ch01-logic-beneath-the-machine.md when ready to publish. -->
+- [The Logic Beneath the Machine](ch01-logic-beneath-the-machine.md)
 - [The Neuron and the Computer](ch02-neuron-and-the-computer.md)
 - [From Tubes to Tensors](ch03-tubes-to-tensors.md)
 - [Learning from Data](ch04-learning-from-data.md)

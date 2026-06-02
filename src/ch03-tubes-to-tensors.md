@@ -27,7 +27,7 @@ Tell the hardware story that every later chapter takes for granted. The vacuum t
 
 ## Worked examples to build into the chapter
 
-- A four-bit ripple-carry adder, in propositional logic, as the simplest concrete example of "the CPU's arithmetic logic unit." Builds directly on Chapter 2's half-adder and full-adder.
+- A four-bit ripple-carry adder, in propositional logic, as the simplest concrete example of "the CPU's arithmetic logic unit." Builds directly on Chapter 1's half-adder and full-adder.
 - The same arithmetic, replicated thirty-two times in parallel, as the GPU's signature move. Show the same gates with the same truth tables, but laid out so the reader sees throughput from replication.
 - A 2x2 by 2x2 matrix multiply as a systolic array, the TPU's signature move. Show the data flow on a small grid so the reader can trace one element of the output back to the partial products that produced it.
 - Pseudocode for the same matrix multiply written three ways: a triple nested loop (CPU), a parallel-for over rows (GPU), and a systolic schedule (TPU). The reader leaves understanding that the algorithm is the same; the silicon is what changes.

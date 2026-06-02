@@ -6,7 +6,7 @@
 
 ## Narrative job
 
-Real-world data unfolds in time. Speech is sequential. Language is sequential. The recurrent neural network is the first architectural answer to the question of how a network can have memory. Backpropagation through time (Werbos, 1990) is the training algorithm. Long Short-Term Memory (Hochreiter and Schmidhuber, 1997) is the gating mechanism that makes deep recurrent networks trainable in practice. The encoder-decoder architecture (Sutskever, Vinyals and Le, 2014) lets one network read a sequence and another write one, opening machine translation as the central testbed. Bahdanau, Cho and Bengio (2014), and then Luong, Pham and Manning (2015), introduce attention as a patch on the recurrent encoder-decoder: instead of squeezing the source through a single bottleneck vector, let the decoder look back at any encoder hidden state. End on the unsolved problem the recurrent backbone leaves on the table: even with attention, the encoder and decoder both serialize their own computation. That is the gap Chapter 7's transformer will close.
+Real-world data unfolds in time. Speech is sequential. Language is sequential. The recurrent neural network is the first architectural answer to the question of how a network can have memory. Backpropagation through time (Werbos, 1990) is the training algorithm. Long Short-Term Memory (Hochreiter and Schmidhuber, 1997) is the gating mechanism that makes deep recurrent networks trainable in practice. The encoder-decoder architecture (Sutskever, Vinyals and Le, 2014) lets one network read a sequence and another write one, opening machine translation as the central testbed. Bahdanau, Cho and Bengio (2014), and then Luong, Pham and Manning (2015), introduce attention as a patch on the recurrent encoder-decoder: instead of squeezing the source through a single bottleneck vector, let the decoder look back at any encoder hidden state. End on the unsolved problem the recurrent backbone leaves on the table: even with attention, the encoder and decoder both serialize their own computation. That is the gap Chapter 6's transformer will close.
 
 ## Pedagogical commitments for this chapter
 
@@ -29,7 +29,7 @@ Real-world data unfolds in time. Speech is sequential. Language is sequential. T
 - A simple RNN unrolled over three time steps, drawn so the reader can see hidden state being passed forward. Pseudocode for one forward pass: five to seven lines.
 - An LSTM cell, drawn with its three gates labeled. Pseudocode that shows the gates as multiplicative masks on the cell state: ten to fifteen lines. The reader leaves understanding gating as a soft form of "remember this, forget that."
 - A worked translation example using encoder-decoder with attention. Show the alignment matrix for a four-word source and a four-word target so the reader sees attention as a learned alignment, not a black box.
-- Pseudocode for scaled dot-product attention as Luong specifies it. Six to ten lines. This is the same operation Chapter 7 will lift out of the recurrent context and run in parallel.
+- Pseudocode for scaled dot-product attention as Luong specifies it. Six to ten lines. This is the same operation Chapter 6 will lift out of the recurrent context and run in parallel.
 
 ## Exercises for the reader
 

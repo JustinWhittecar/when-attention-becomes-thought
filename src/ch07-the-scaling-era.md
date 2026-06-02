@@ -6,7 +6,7 @@
 
 ## Narrative job
 
-Show that after 2017, the dominant lesson was not a new architecture but a new relationship between scale and capability. End on the "emergence" claim and the live controversy around it, so Chapter 5 has somewhere to go.
+Show that after 2017, the dominant lesson was not a new architecture but a new relationship between scale and capability. End on the "emergence" claim and the live controversy around it, so Chapter 9 has somewhere to go.
 
 ## Reading list
 

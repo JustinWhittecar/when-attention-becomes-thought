@@ -16,4 +16,4 @@ Candidate threads to bring back in the closing pages:
 
 - The nine-year arc from "Attention Is All You Need" to the Chen et al. commentary.
 - The distinction between "what the model is trained to do" and "what the model has to become in order to do it well."
-- The personal note from Chapter 1: I started as a fan and will end as one.
+- The personal note from the Introduction: I started as a fan and will end as one.

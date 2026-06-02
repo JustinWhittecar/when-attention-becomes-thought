@@ -6,7 +6,7 @@
 
 ## Narrative job
 
-Take the major critiques of contemporary AI seriously, in their strongest forms, so that the reader leaves the chapter able to tell a real concern from a moral panic. The chapter has just shown what current AI systems can plausibly do (Chapter 8). The honest next move is to ask what they cost, what they get wrong, and who carries the consequences. This chapter is not a debunking and not an indictment. It is the audit.
+Take the major critiques of contemporary AI seriously, in their strongest forms, so that the reader leaves the chapter able to tell a real concern from a moral panic. The chapter has just shown what current AI systems can plausibly do (Chapter 12). The honest next move is to ask what they cost, what they get wrong, and who carries the consequences. This chapter is not a debunking and not an indictment. It is the audit.
 
 ## Scope
 
@@ -39,4 +39,4 @@ Concrete numbers wherever possible, with their source and their year. Costs that
 
 ## Out of scope for this chapter
 
-Existential / catastrophic risk and long-run alignment concerns. Those are covered in Chapter 4 (Teaching Machines to Follow Intent) and Chapter 8 (The AGI Question). This chapter focuses on harms that have already landed or are landing now.
+Existential / catastrophic risk and long-run alignment concerns. Those are covered in Chapter 8 (Teaching Machines to Follow Intent) and Chapter 12 (The AGI Question). This chapter focuses on harms that have already landed or are landing now.

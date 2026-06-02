@@ -25,7 +25,7 @@ Up to this point the machines have been told what to do. This is the chapter whe
 
 ## Worked examples to build into the chapter
 
-- A perceptron computing AND, OR, and NAND, with weights given. Reuses the Chapter 3 vocabulary and shows the reader that a perceptron is a McCulloch-Pitts neuron with knobs.
+- A perceptron computing AND, OR, and NAND, with weights given. Reuses the Chapter 2 vocabulary and shows the reader that a perceptron is a McCulloch-Pitts neuron with knobs.
 - The XOR problem: show why a single perceptron cannot solve it (a propositional-logic argument), then show that a two-layer network can (a worked example with weights). This is the chapter's pedagogical pivot.
 - Pseudocode for the perceptron learning rule: for each example, predict, compare to label, update weights in the direction of the error. Five lines.
 - Pseudocode for stochastic gradient descent on a one-hidden-layer network. Eight to twelve lines. The reader sees the same shape as the perceptron rule, generalized.

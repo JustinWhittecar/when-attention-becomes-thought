@@ -31,3 +31,6 @@ wiki-site/public/
 
 # Stray Zotero exports. bibliography.bib is the canonical bib.
 /references/When Attention Becomes Thought.bib
+
+# Cowork-managed, do not commit
+/data/
