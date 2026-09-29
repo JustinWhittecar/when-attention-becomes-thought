@@ -2,7 +2,7 @@
 
 > **This chapter is in progress.** What follows is the planned reading list and narrative outline. The finished prose will replace this scaffolding as the chapter is drafted. Track progress in the [changelog](changelog.md).
 
-*Last updated: 2026-05-06.*
+*Last updated: 2026-08-15.*
 
 ## Narrative job
 
@@ -18,12 +18,14 @@ Tell the hardware story that every later chapter takes for granted. The vacuum t
 1. Bardeen, J. & Brattain, W. H. (1948). "The Transistor, A Semi-Conductor Triode." *Physical Review*, 74, 230-231. The Bell Labs announcement. Short. Read for the historical hinge.
 2. Felker, J. H. (1954). "Performance of TRADIC Transistor Digital Computer." *Proceedings of the December 8-10, 1954, Eastern Joint Computer Conference*, pp. 46-49. The first US transistorized computer, nine years after EDVAC.
 3. Moore, G. E. (1965). "Cramming More Components onto Integrated Circuits." *Electronics*, 38(8), 114-117. The original Moore's Law paper. Three pages. Read it whole.
-4. Mead, C. (1990). "Neuromorphic Electronic Systems." *Proceedings of the IEEE*, 78(10), 1629-1636. Sets up the question of what silicon ought to specialize in. Cite when introducing the GPU and TPU as answers.
-5. Patterson, D. A. & Hennessy, J. L. (latest edition). *Computer Organization and Design.* Reference text. Read the chapters on instruction fetch, pipelining, and memory hierarchy. Cite for accessible exposition.
-6. NVIDIA (2007). "NVIDIA CUDA Programming Guide" (early version). The release that turned graphics cards into general-purpose parallel computers. Read for the SIMT model.
-7. Jouppi, N. P. et al. (2017). "In-Datacenter Performance Analysis of a Tensor Processing Unit." *ISCA 2017.* The TPU paper. Read for the systolic array and the matmul-as-primary-operation argument.
-8. Sutton, R. S. (2019). "The Bitter Lesson." *Incomplete Ideas* blog. The closer.
-9. Hennessy, J. L. & Patterson, D. A. (2019). "A New Golden Age for Computer Architecture." *Communications of the ACM*, 62(2), 48-60. The 2017 Turing Award lecture. Read for the framing of domain-specific architectures and what comes after Moore.
+4. Backus, J. (1978). "Can Programming Be Liberated from the von Neumann Style? A Functional Style and Its Algebra of Programs." *Communications of the ACM*, 21(8), 613-641. The 1977 ACM Turing Award lecture, and the source that named the "von Neumann bottleneck." Moved here from Chapter 4 on 2026-08-15. Skim the functional-programming argument; the term and its framing are what this chapter needs.
+5. Godfrey, M. D. & Hendry, D. F. (1993). "The Computer as von Neumann Planned It." *IEEE Annals of the History of Computing*, 15(1), 11-21. The historiographical correction, read against Backus so the popular bottleneck caricature stays in proportion to what von Neumann actually proposed. Moved here from Chapter 4 on 2026-08-15.
+6. Mead, C. (1990). "Neuromorphic Electronic Systems." *Proceedings of the IEEE*, 78(10), 1629-1636. Sets up the question of what silicon ought to specialize in. Cite when introducing the GPU and TPU as answers.
+7. Patterson, D. A. & Hennessy, J. L. (latest edition). *Computer Organization and Design.* Reference text. Read the chapters on instruction fetch, pipelining, and memory hierarchy. Cite for accessible exposition.
+8. NVIDIA (2007). "NVIDIA CUDA Programming Guide" (early version). The release that turned graphics cards into general-purpose parallel computers. Read for the SIMT model.
+9. Jouppi, N. P. et al. (2017). "In-Datacenter Performance Analysis of a Tensor Processing Unit." *ISCA 2017.* The TPU paper. Read for the systolic array and the matmul-as-primary-operation argument.
+10. Sutton, R. S. (2019). "The Bitter Lesson." *Incomplete Ideas* blog. The closer.
+11. Hennessy, J. L. & Patterson, D. A. (2019). "A New Golden Age for Computer Architecture." *Communications of the ACM*, 62(2), 48-60. The 2017 Turing Award lecture. Read for the framing of domain-specific architectures and what comes after Moore.
 
 ## Worked examples to build into the chapter
 
