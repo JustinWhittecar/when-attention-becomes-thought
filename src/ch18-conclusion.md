@@ -1,6 +1,6 @@
 # Conclusion
 
-> **This chapter is in progress.** It will be drafted after Chapters 8 and 9 are complete. Track progress in the [changelog](changelog.md).
+> **This chapter is in progress.** It will be drafted after the rest of the book is complete. Track progress in the [changelog](changelog.md).
 
 *Last updated: 2026-04-22.*
 
