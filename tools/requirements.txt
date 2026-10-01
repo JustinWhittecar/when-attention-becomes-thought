@@ -1,5 +1,5 @@
 # Python dependencies for the mdBook citeproc preprocessor.
 # Install before running `mdbook build`:
 #   pip install -r tools/requirements.txt
-bibtexparser
+bibtexparser<2
 citeproc-py
