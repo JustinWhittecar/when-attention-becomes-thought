@@ -6,6 +6,9 @@ Mirrors `src/changelog.md`, which is what the built site shows.
 
 ## [Unreleased]
 
+### Added
+- **Chapter 4, "The Neuron and the Computer," is published.** McCulloch and Pitts's 1943 neuron, von Neumann's *First Draft of a Report on the EDVAC*, the credit dispute between von Neumann and Eckert and Mauchly, and the 1947 ruling that put the design in the public domain. The chapter carries the book's first pseudocode and its first Exercises for the Reader.
+
 ### Changed
 - **Chapter 4 split into two chapters.** "The Neuron and the Computer" now covers McCulloch and Pitts, von Neumann's *First Draft*, and the credit and patent questions around it. A new Chapter 5, "Teaching the Machine," picks up Turing's 1948 unorganised machines, Kleene's and von Neumann's audits of what the neuron model lacked, and the imitation game. Every later chapter moved up one, so the book now runs to eighteen chapters, and chapter cross-references in the in-progress chapter pages were corrected to the current numbering.
 - **Chapter 1 split into three chapters within Part I: Foundations.** The original Chapter 1, "The Logic Beneath the Machine," was divided along its existing section breaks into three: "The Logic Beneath the Machine" (the algebra of logic, Boole through truth tables), "The Limits of Computation" (Cantor, Goedel, Turing, and computability), and "Logic Becomes Information" (Shannon's circuits, one-bit memory, and information theory). All three join Part I: Foundations, now eight chapters. The remaining chapters were renumbered to ch04 through ch17; the book is now an Introduction and 17 chapters.

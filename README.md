@@ -44,7 +44,7 @@ mdbook serve --open
 
 ## Status
 
-The Introduction and Chapters 1 to 3 are published, and Chapter 4, *The Neuron and the Computer*, is drafted. The remaining chapters are in progress, organized in three parts: Foundations (Ch 1-8), The Modern Stack (Ch 9-14), and The Question (Ch 15-18). Chapters publish when they are ready; there is no committed schedule.
+The Introduction and Chapters 1 to 4 are published, and Chapter 5, *Teaching the Machine*, is in progress. The remaining chapters are in progress, organized in three parts: Foundations (Ch 1-8), The Modern Stack (Ch 9-14), and The Question (Ch 15-18). Chapters publish when they are ready; there is no committed schedule.
 
 I write in public. Each Friday I post a build-in-public update on LinkedIn covering what I read that week, what I learned, and what is still unresolved. The [changelog](src/changelog.md) is the canonical record of what has shipped.
 
